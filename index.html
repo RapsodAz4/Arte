@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="Header">
+         <nav class="header-nave">
+            <a href="index.html">Home</a>
+            
+            <a href="sobremi.html">Sobre Mi</a>
+            <a href="poesia.html">Poesia</a>
+
+         </nav>
+    </header>
+
+    <main>
+        <section class="texto1">El arte es un viaje, <strong>solo disfrutalo</strong></section>
+        <h3 class="poema1">Poema Olvidado del arte</h3>
+        <p class="poema1">
+            La vida siempre fue una aventura <br>
+            incluso cuando los vientos eran de tristeza,<br>
+            incluso cuando todo aquello que queriamos,<br>
+            era algo que simplemente no se podia dar,<br>
+            era algo que simplemente estaba en nuestros sueños <br>
+        </p>
+
+       <section class="imagenes">
+        <div class="container1">
+        <img src="imagenes/1.jpeg" alt="">
+        <img src="imagenes/2.png" alt="">
+        </div>
+       </section>
+
+       <div class="btndiv">
+        <Button class="btnPresionar" onclick="mostrarFrases()">Presiona aqui para saber tu frase</Button>
+       </div>
+       <div class="vizualizarFrase" id="frasesContainer"></div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
